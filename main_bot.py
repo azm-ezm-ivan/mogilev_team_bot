@@ -4,7 +4,6 @@ from models.models import User
 
 props = properties.config
 bot = telebot.TeleBot(props.bot_key)
-#conn = SqliteDatabase(props.db)
 
 
 # https://habr.com/ru/post/448310/
@@ -14,7 +13,7 @@ bot = telebot.TeleBot(props.bot_key)
 # def start_massaging(message):
 #     bot.send_message(message.chat.id, 'Hello')
 
-artist = User.get(User.user_id == 34343)
+artist = User.get(User.id == 34343)
 
 
 @bot.message_handler(content_types=['text'])

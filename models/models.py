@@ -12,8 +12,10 @@ class BaseModel(Model):
 
 
 class User(BaseModel):
-    user_id = AutoField(column_name='id')
-    name = TextField(column_name='first_name', null=True)
+    id = AutoField(column_name='id')
+    first_name = TextField(column_name='first_name', null=True)
+    last_name = TextField(column_name='last_name', null=True)
+    birthday = DateField(column_name='birthday', null=True)
 
     class Meta:
         table_name = 'user'
