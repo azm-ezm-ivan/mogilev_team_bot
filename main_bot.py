@@ -1,6 +1,10 @@
 import telebot
+import properties.config
+from models.models import User
 
-bot = telebot.TeleBot('1048021920:AAH_kvWl8Qjr-r_OZsT5LOCKjLgp-kGMZaA')
+props = properties.config
+bot = telebot.TeleBot(props.bot_key)
+#conn = SqliteDatabase(props.db)
 
 
 # https://habr.com/ru/post/448310/
@@ -9,6 +13,8 @@ bot = telebot.TeleBot('1048021920:AAH_kvWl8Qjr-r_OZsT5LOCKjLgp-kGMZaA')
 # @bot.message_handler(commands=['start'])
 # def start_massaging(message):
 #     bot.send_message(message.chat.id, 'Hello')
+
+artist = User.get(User.user_id == 34343)
 
 
 @bot.message_handler(content_types=['text'])
