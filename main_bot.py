@@ -1,13 +1,12 @@
 import telebot
 from PIL import Image
 
-import properties.config
+from images.loggers.bot_logger import init_logger
 from models.models import *
+from properties import config
 
-props = properties.config
-bot = telebot.TeleBot(props.bot_key)
-
-
+LOG = init_logger(config.logging_level)
+bot = telebot.TeleBot(config.bot_key)
 # https://habr.com/ru/post/448310/
 
 
@@ -18,7 +17,7 @@ def start_massaging(message):
     bot.send_message(message.chat.id, 'What\'s uuuuppp man!')
 
 
-artist = User.get(User.id == 34343)
+#artist = User.get(User.id == 34343)
 
 
 @bot.message_handler(content_types=['text'])

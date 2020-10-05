@@ -1,9 +1,7 @@
 from peewee import *
-import properties.config
+from properties import config
 
-props = properties.config
-
-conn = SqliteDatabase(props.db)
+conn = SqliteDatabase(config.db)
 
 
 class BaseModel(Model):

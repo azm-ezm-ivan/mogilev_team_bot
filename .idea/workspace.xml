@@ -19,15 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1017af4e-b476-422b-806e-6b937d535a3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/alena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/maks.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mogilev_team_bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mogilev_team_bot.iml" afterDir="false" />
+    <list default="true" id="1017af4e-b476-422b-806e-6b937d535a3e" name="Default Changelist" comment="5">
+      <change afterPath="$PROJECT_DIR$/images/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/loggers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/loggers/bot_logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydatabase.db" beforeDir="false" afterPath="$PROJECT_DIR$/mydatabase.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/properties/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/properties/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +39,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ve</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/loggers" />
       <recent name="$PROJECT_DIR$/models" />
     </key>
   </component>
@@ -79,7 +74,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_bot.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -127,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601839944666</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5">
+      <created>1601896902651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601896902651</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,77 +152,82 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="5" />
+    <option name="LAST_COMMIT_MESSAGE" value="5" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2406" y="263" width="1062" height="511" key="#xdebugger.evaluate" timestamp="1601896142446">
+    <state x="2522" y="310" width="706" height="467" key="#Log_Highlighting_(ideolog)" timestamp="1601905297599">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2406" y="263" width="1062" height="511" key="#xdebugger.evaluate/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601896142446" />
-    <state width="1897" height="301" key="GridCell.Tab.0.bottom" timestamp="1601896288660">
+    <state x="2522" y="310" width="706" height="467" key="#Log_Highlighting_(ideolog)/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601905297599" />
+    <state x="2338" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601900919102">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="301" key="GridCell.Tab.0.bottom/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601896288660" />
-    <state width="1897" height="301" key="GridCell.Tab.0.center" timestamp="1601896288660">
+    <state x="2338" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601900919102" />
+    <state x="2583" y="342" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601901694639">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="301" key="GridCell.Tab.0.center/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601896288660" />
-    <state width="1897" height="301" key="GridCell.Tab.0.left" timestamp="1601896288660">
+    <state x="2583" y="342" width="583" height="403" key="#com.intellij.fileTypes.FileTypeChooser/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601901694639" />
+    <state x="2410" y="342" width="1062" height="511" key="#xdebugger.evaluate" timestamp="1601905289590">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="301" key="GridCell.Tab.0.left/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601896288660" />
-    <state width="1897" height="301" key="GridCell.Tab.0.right" timestamp="1601896288660">
+    <state x="2410" y="342" width="1062" height="511" key="#xdebugger.evaluate/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601905289590" />
+    <state x="2720" y="299" width="309" height="489" key="EnvironmentVariablesDialog" timestamp="1601900910140">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="301" key="GridCell.Tab.0.right/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601896288660" />
-    <state width="1897" height="301" key="GridCell.Tab.1.bottom" timestamp="1601896288661">
+    <state x="2720" y="299" width="309" height="489" key="EnvironmentVariablesDialog/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601900910140" />
+    <state width="1897" height="301" key="GridCell.Tab.0.bottom" timestamp="1601905229488">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="301" key="GridCell.Tab.1.bottom/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601896288661" />
-    <state width="1897" height="301" key="GridCell.Tab.1.center" timestamp="1601896288661">
+    <state width="1897" height="301" key="GridCell.Tab.0.bottom/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601905229488" />
+    <state width="1897" height="301" key="GridCell.Tab.0.center" timestamp="1601905229488">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="301" key="GridCell.Tab.1.center/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601896288661" />
-    <state width="1897" height="301" key="GridCell.Tab.1.left" timestamp="1601896288661">
+    <state width="1897" height="301" key="GridCell.Tab.0.center/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601905229488" />
+    <state width="1897" height="301" key="GridCell.Tab.0.left" timestamp="1601905229488">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="301" key="GridCell.Tab.1.left/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601896288661" />
-    <state width="1897" height="301" key="GridCell.Tab.1.right" timestamp="1601896288661">
+    <state width="1897" height="301" key="GridCell.Tab.0.left/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601905229488" />
+    <state width="1897" height="301" key="GridCell.Tab.0.right" timestamp="1601905229488">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="301" key="GridCell.Tab.1.right/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601896288661" />
+    <state width="1897" height="301" key="GridCell.Tab.0.right/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601905229488" />
+    <state width="1897" height="301" key="GridCell.Tab.1.bottom" timestamp="1601905230011">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="301" key="GridCell.Tab.1.bottom/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601905230011" />
+    <state width="1897" height="301" key="GridCell.Tab.1.center" timestamp="1601905230011">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="301" key="GridCell.Tab.1.center/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601905230011" />
+    <state width="1897" height="301" key="GridCell.Tab.1.left" timestamp="1601905230011">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="301" key="GridCell.Tab.1.left/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601905230011" />
+    <state width="1897" height="301" key="GridCell.Tab.1.right" timestamp="1601905230011">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="301" key="GridCell.Tab.1.right/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601905230011" />
     <state x="2369" y="175" width="1022" height="737" key="SettingsEditor" timestamp="1601879319028">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2369" y="175" width="1022" height="737" key="SettingsEditor/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601879319028" />
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601896904316">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601896904316" />
+    <state x="2421" y="252" width="908" height="583" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601901278167">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2421" y="252" width="908" height="583" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/58.27.1862.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601901278167" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main_bot.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/models/models.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main_bot.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main_bot.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main_bot.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="20" />
+          <line>28</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
