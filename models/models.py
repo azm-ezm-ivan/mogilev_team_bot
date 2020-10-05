@@ -19,3 +19,9 @@ class User(BaseModel):
 
     class Meta:
         table_name = 'user'
+
+
+class Project(BaseModel):
+    id = AutoField(column_name='id')
+    project_name = TextField(column_name='project_name', null=True)
+    user_id = ForeignKeyField(User)
